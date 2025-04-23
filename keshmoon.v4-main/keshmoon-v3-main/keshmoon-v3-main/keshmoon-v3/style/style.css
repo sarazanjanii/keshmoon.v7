@@ -1,0 +1,274 @@
+* {
+    direction: rtl;
+    font-family: Vazirmatn;
+    margin: 0%;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.headerP {
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid #929292;
+}
+
+section {
+    width: 100%;
+    height: 600px;
+    background-image: url("../photo/farmer-big.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+
+}
+
+.keshmoonFont {
+    margin-top: 40px;
+}
+
+.myinput {
+    font-family: sans-serif;
+    border: none;
+    background-color: #d3d3d3;
+    color: #b8b8b8;
+    border-radius: 50px;
+    height: 46px;
+    width: 600px;
+    padding: 0px 50px;
+    line-height: 46px;
+    margin-top: 20px;
+    border: none;
+    margin-right: 12%;
+
+}
+
+.myinput:hover {
+    box-shadow: 0px 0px 20px rgb(135, 204, 135);
+    background-color: white;
+    border: rgb(102, 172, 102);
+}
+
+.paragraph1 {
+    color: white;
+    font-size: xx-large;
+    margin-right: 67%;
+    padding-top: 10%;
+    font-weight: bolder;
+}
+
+.paragraph2 {
+    color: white;
+    width: 24%;
+    margin-right: 68%;
+    padding-top: 40px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.centerBox {
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.textproduct {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-right: 300px;
+    font-weight: bold;
+    width: 930px;
+
+}
+
+.productRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.keshmoonProduct {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.col-4,
+.col-6 {
+    width: 30%;
+    height: 30%;
+}
+
+.col-6 {
+    margin-top: 40px;
+}
+
+.left-box {
+    margin-right: 10%;
+}
+
+.right-box {
+    margin-right: 15%;
+}
+
+.prokesh {
+    width: 300px;
+    height: 500px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 60px 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.prokesh>p {
+    line-height: 40px;
+}
+
+.titlecol3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.imagecol3 {
+    width: 100%;
+    height: 50%;
+}
+
+.btn {
+    position: absolute;
+    margin-top: 20px;
+    right: 40%;
+    width: 20%;
+    border-radius: 20px;
+    margin-top: 35%;
+
+}
+
+.productbtn {
+    color: white;
+    border: none;
+    background-color: #1EBC8B;
+    padding: 20px 110px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 580px;
+    left: 120px;
+}
+
+.blukRow {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10x;
+}
+
+.probluk {
+    height: 450px;
+    width: 300px;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 10px;
+
+}
+
+.probluk1 {
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+}
+
+.BulkPurchase {
+    width: 100%;
+    height: 800px;
+    background-color: #f6f6f6;
+    margin-top: 50px;
+}
+
+.pBulkPurchase {
+    margin-top: 10%;
+}
+
+.footer-icon-container {
+    display: inline;
+    width: 225px;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+
+}
+
+.footer-icon-a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    border: solid 1px #707070;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.footer-social-icon {
+    width: 22px;
+    height: 22px;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 10px;
+    position: absolute;
+}
+.footer-contact{
+    color: #1ebc8b;
+}
+.footer-a-contact{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+a:hover{
+    color: #53a983;
+}
+.imgmenu{
+    background-color: #f1f3f0;
+    height: 480px;
+
+}
+
+.left-side{
+background-color: #f1f3f0;
+display: flex;
+flex-direction: column;
+justify-content:space-evenly ;
+}
+.right-side{
+
+  
+}
+
+.imgmenu1{
+    border-radius: 10px;
+}
+.imgmenuintro{
+    background-color: #ffffff;
+}
+
+.left-side>h4{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
